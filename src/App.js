@@ -5,7 +5,8 @@ import './App.css';
 function App() {
     return ( <
         div >
-        Hello World Class 2 BootCamp <
+        <
+        h1 > Hello World Class 2 BootCamp < /h1> <
         /div>
     );
 }
