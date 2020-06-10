@@ -34,7 +34,7 @@ jobs:
       run: yarn build
       
     - name: installing surge
-      run: npm insatll -g surge
+      run: npm insatll --global surge
       
     - name: deploying on surge
       run: surge ./build http://firstapp_class2_bootcamp.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
